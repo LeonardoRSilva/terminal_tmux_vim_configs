@@ -7,6 +7,8 @@ Settings - terminal | tmux | vim
 
 In setting of terminal program, set color profile set the next color (gnome profile): 
 
+![colors_gnome_profile](https://github.com/LeonardoRSilva/terminal_tmux_vim_configs/blob/main/imgs/colors_gnome_profile.png)
+
 #171421 <br>
 #C01C28 <br>
 #26A269 <br>
@@ -41,6 +43,8 @@ if ["$color_prompt" = yes];then
 
 then close and open the terminal to see the result
 
+![temrinal](https://github.com/LeonardoRSilva/terminal_tmux_vim_configs/blob/main/imgs/terminal.png)
+
 ### Configure terminal colors (windows powershell):
 
 First, enable Power Shell implementation policies, run this code with admin:
@@ -63,6 +67,8 @@ $([char]27)[0m$ "
 ```
 then close and open the terminal to see the result
 
+![terminal](https://github.com/LeonardoRSilva/terminal_tmux_vim_configs/blob/main/imgs/terminal.png)
+
 ### Configure Zoxide and FZF (Linux | WSL):
 ```bash
 sudo apt install zoxide  
@@ -81,6 +87,10 @@ export FZF_DEFAULT_OPTS='--layout=reverse --height=80% --preview "cat {} || tree
 alias lsf='ls | fzf'
 ```
 
+![zoxide_fzf](https://github.com/LeonardoRSilva/terminal_tmux_vim_configs/blob/main/imgs/zoxide_fzf.png)
+
+![zoxide_fzf_2](https://github.com/LeonardoRSilva/terminal_tmux_vim_configs/blob/main/imgs/zoxide_fzf_2.png)
+
 ## TMUX
 
 Install **TMUX** with bellow command:
@@ -92,6 +102,8 @@ Copy file **.tmux.conf** to the **home** folder and refresh with the following c
 ```bash
 tmux source-file ~/.tmux.conf
 ```
+![tmux](https://github.com/LeonardoRSilva/terminal_tmux_vim_configs/blob/main/imgs/tmux.png)
+
 Fundamental commands:
 ```bash
 # new session
