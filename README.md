@@ -3,29 +3,30 @@ Settings - terminal | tmux | vim
 
 ## Terminal
 
-### Configure terminal colors (Linux of WSL):
+### Configure terminal colors (Linux | WSL):
 
 In setting of terminal program, set color profile set the next color (gnome profile): 
 
 ![colors_gnome_profile](https://github.com/LeonardoRSilva/terminal_tmux_vim_configs/blob/main/imgs/colors_gnome_profile.png)
 
-#171421 <br>
-#C01C28 <br>
-#26A269 <br>
-#A2734C <br>
-#12488B <br>
-#A347BA <br>
-#2AA1B3 <br>
-#D0CFCC <br>
-
-#5E5C64<br>
-#F66151<br>
-#33D17A<br>
-#E9AD0C<br>
-#2A7BDE<br>
-#C061CB<br>
-#33C7DE<br>
-#FFFFFF<br>
+| colors   |
+|:--------:|
+|#171421   |
+|#C01C28   |
+|#26A269   |
+|#A2734C   |
+|#12488B   |
+|#A347BA   | 
+|#2AA1B3   |
+|#D0CFCC   |
+|#5E5C64   |
+|#F66151   |
+|#33D17A   |
+|#E9AD0C   |
+|#2A7BDE   |
+|#C061CB   |
+|#33C7DE   |
+|#FFFFFF   |
 
 Also set background color (#161616), font (Fira Code| size: 18)
 
@@ -131,7 +132,7 @@ ctrl + b, c
 #rename tab
 ctrl + b, ,
 
-#navigate though tabs
+#navigate trhough tabs
 ctrl + b, [number_tab]
 ctrl + b, w
 
